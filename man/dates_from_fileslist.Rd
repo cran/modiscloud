@@ -29,6 +29,8 @@ dates_from_fileslist(fns)
   Meteorological Satellite Studies, University of Wisconsin
   - Madison. <URL:
   http://modis-atmos.gsfc.nasa.gov/_docs/MOD35_ATBD_Collection6.pdf>.
+
+  GoldsmithMatzkeDawson2013
 }
 \seealso{
   \code{\link{yearday_to_date}}

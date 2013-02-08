@@ -43,6 +43,8 @@ make_POSIXct_date(year, month, day, hourmin, timezone_txt="UTC")
   Meteorological Satellite Studies, University of Wisconsin
   - Madison. <URL:
   http://modis-atmos.gsfc.nasa.gov/_docs/MOD35_ATBD_Collection6.pdf>.
+
+  GoldsmithMatzkeDawson2013
 }
 \seealso{
   \code{\link{get_date_from_POSIXct}}

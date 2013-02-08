@@ -192,6 +192,7 @@ slashslash <- function(tmpstr)
 #' @seealso \code{\link{byteint2bit_list}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' byteint2bit(intval=0, reverse=FALSE)
@@ -245,6 +246,7 @@ byteint2bit <- function(intval, reverse=TRUE)
 #' @seealso \code{\link{byteint2bit}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' grdr_vals = c(0,1,2,253,254,255)
@@ -480,6 +482,7 @@ check_for_matching_geolocation_files <- function(moddir=getwd(), modtxt="MOD35_L
 #' @seealso \code{\link{extract_time_from_MODISfn}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' fns = c("MOD03.A2008001.0400.005.2010216170200.hdf", "MOD03.A2007002.0300.005.2010216170200.hdf")
@@ -543,6 +546,7 @@ dates_from_fileslist <- function(fns)
 #' @seealso \code{\link{get_bitgrid_2bits}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' intval = 123
@@ -736,6 +740,7 @@ foo2 <- function(d)
 #' @seealso \code{\link{get_bitgrid_2bits}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' #######################################################
@@ -827,6 +832,7 @@ get_bitgrid <- function(grd, bitnum)
 #' @seealso \code{\link{get_bitgrid}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' #######################################################
@@ -941,6 +947,7 @@ get_bitgrid_2bits <- function(grd, bitnums)
 #' @seealso \code{\link[base]{as.POSIXlt}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' # 10 million seconds from 1/1/1970
@@ -1020,6 +1027,7 @@ get_date_from_POSIXct <- function(POSIX_ct_date)
 #' @seealso \code{\link{make_POSIXct_date}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' 
@@ -1178,6 +1186,7 @@ is.pseudoprime2 <- function(n, times)
 #' @seealso \code{\link[base]{as.POSIXct}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' # Example use of make_POSIXct_date
@@ -1238,6 +1247,7 @@ make_POSIXct_date <- function(year, month, day, hourmin, timezone_txt="UTC")
 #' @seealso \code{\link{sum_bitgrid}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' # For examples, see the function numslist_to_grd()
@@ -1528,6 +1538,7 @@ modfns_to_ftp_download_cmd <- function(mod03_fns_dropped, ftp_prefix="get allDat
 #' @seealso \code{\link{make_cloudcount_product}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #'
@@ -1700,6 +1711,7 @@ numslist_to_grd <- function(numslist, grd, ydim_new, xdim_new)
 #' @seealso \code{\link{numslist_to_grd}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' 
@@ -2127,6 +2139,7 @@ yearday_to_date <- function(year=2012, day=1)
 #' @seealso \code{\link{yearday_to_date}}
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite Ackerman2010
+#'   @cite GoldsmithMatzkeDawson2013
 #' @author Nicholas J. Matzke \email{matzke@@berkeley.edu}
 #' @examples
 #' year=2011; month=06; day=15

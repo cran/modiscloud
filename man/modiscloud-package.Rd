@@ -9,7 +9,7 @@
 }
 \details{
   \tabular{ll}{ Package: \tab modiscloud\cr Type: \tab
-  Package\cr Version: \tab 0.13\cr Date: \tab 2013-01-30\cr
+  Package\cr Version: \tab 0.14\cr Date: \tab 2013-02-08\cr
   License: \tab GPL (>= 2)\cr LazyLoad: \tab yes\cr }
 
   This package helps the user process downloaded MODIS
@@ -41,9 +41,9 @@
 
   Note: This code was developed for the following
   publication. Please cite if used: Goldsmith, Gregory;
-  Matzke, Nicholas J.; Dawson, Todd (2012). "The incidence
+  Matzke, Nicholas J.; Dawson, Todd (2013). "The incidence
   and implications of clouds for cloud forest plant water
-  relations." Ecology Letters, accepted. DOI:
+  relations." Ecology Letters, 16(3), 207-314. DOI:
   \url{http://dx.doi.org/10.1111/ele.12039}
 }
 \examples{
@@ -331,13 +331,10 @@ image(grd_final)
   - Madison. <URL:
   http://modis-atmos.gsfc.nasa.gov/_docs/MOD35_ATBD_Collection6.pdf>.
 
-  Goldsmith G, Matzke NJ and Dawson T (2012). "The
-  incidence and implications of clouds for cloud forest
-  plant water relations." _Ecology Letters_. <URL:
-  http://dx.doi.org/http://dx.doi.org/10.1111/ele.12039>.
+  GoldsmithMatzkeDawson2013
 }
 \seealso{
-  \code{\link{is.pseudoprime}}
+  \code{\link{check_for_matching_geolocation_files}}
 }
 \keyword{package}
 

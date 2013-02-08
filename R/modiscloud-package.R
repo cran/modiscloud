@@ -3,8 +3,8 @@
 #' \tabular{ll}{
 #' Package: \tab modiscloud\cr
 #' Type: \tab Package\cr
-#' Version: \tab 0.13\cr
-#' Date: \tab 2013-01-30\cr
+#' Version: \tab 0.14\cr
+#' Date: \tab 2013-02-08\cr
 #' License: \tab GPL (>= 2)\cr
 #' LazyLoad: \tab yes\cr
 #' }
@@ -28,8 +28,8 @@
 #' These were too big to put in the main package, according to CRAN repository policies (\url{http://cran.r-project.org/web/packages/policies.html}).
 #'
 #' Note: This code was developed for the following publication. Please cite if used: Goldsmith, Gregory; Matzke, Nicholas J.; 
-#' Dawson, Todd (2012). "The incidence and implications of clouds for cloud forest plant water relations."
-#' Ecology Letters, accepted. DOI: \url{http://dx.doi.org/10.1111/ele.12039}
+#' Dawson, Todd (2013). "The incidence and implications of clouds for cloud forest plant water relations."
+#' Ecology Letters, 16(3), 207-314. DOI: \url{http://dx.doi.org/10.1111/ele.12039}
 #'
 #' @name modiscloud-package
 #' @aliases modiscloud
@@ -41,9 +41,9 @@
 #' @bibliography /Dropbox/_njm/__packages/modiscloud_setup/modiscloud_refs.bib
 #'   @cite NASA2001
 #'   @cite Ackerman2010
-#'   @cite GoldsmithMatzkeDawson2012
+#'   @cite GoldsmithMatzkeDawson2013
 #' @keywords package
-#' @seealso \code{\link{is.pseudoprime}}
+#' @seealso \code{\link{check_for_matching_geolocation_files}}
 #' @examples
 #' # Test function for checking roxygen2, roxygenize package documentation building
 #' is.pseudoprime(13, 4)
